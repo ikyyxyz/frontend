@@ -1,0 +1,55 @@
+.newPost {
+  margin: 60px 0;
+}
+
+.newPost .container {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.newPost i {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: -20px;
+}
+
+.newPost img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.newPost .img {
+  position: relative;
+}
+
+.newPost form {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.newPost .inputFile input {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.newPost .img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.newPost .container textarea {
+  resize: none;
+}
+
+@media screen and (min-width: 992px) {
+  .newPost .container {
+    max-width: 80%;
+    padding: 20px;
+  }
+}
